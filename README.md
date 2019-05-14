@@ -69,7 +69,11 @@ I used county population and free/reduced lunch rate as proxy variables to indic
 
 **The visualizations show the median county population is actually higher for districts that have a 4-day school week.** Median chosen measure of center because the population data was right skewed.
 
-Additionally, schools with a 4-day week had a slightly higher average percentage of students who qualify for free/reduced lunch (.384 for 4-day districts vs .339 for 5-day districts).
+Additionally, **schools with a 4-day week had a slightly higher average percentage of students who qualify for free/reduced lunch** (.384 for 4-day districts vs .339 for 5-day districts).
+
+### More Visualizations
+
+If you are interested in how school districts with 4- vs. 5-day weeks differ on other metrics, (check this out)[]. I include metrics related to teacher pay, ACT score, instructional time, etc.  
 
 ### A few final thoughts on the public data...
 
@@ -79,4 +83,4 @@ It would also be great if the data included information on whether or not the sc
 
 Finally, the BIE should be more transparent with their data (i.e. publish their data on the BIE website in a tabular format as the department of ed. seems mandated to do).
 
-The South Dakota Department of Education could do a much better job of documenting their datasets by including metadata on what is included in each of their many disparate tables.
+The South Dakota Department of Education could do a much better job of documenting their datasets by including metadata on what is included in each of their many disparate tables. For example, the columns "Capital Outlay Fund Local Revenue" and "Special Education Extraordinary Cost Funds"... what do these mean?? There are at least 50 of these "hard-to-interpret-unless-you-are-a-CPA" columns related to district funding. But zero columns relating to race/ethnicity. IDK.
