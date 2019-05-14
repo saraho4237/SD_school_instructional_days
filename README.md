@@ -16,9 +16,9 @@ Further, I wanted to see what kind of data South Dakota was keeping on its schoo
 
 ### District Level Data
 
-The data is from the [South Dakota Department of Education Data Center](https://doe.sd.gov/data.aspx) and includes district level information from the 149 school districts in South Dakota.
+The data is from the [South Dakota Department of Education Data Center](https://doe.sd.gov/data.aspx) and includes district level information from the 149 public school districts in South Dakota.
 
-The dataset includes information on:
+The cleaned/merged dataset includes information on:
 * District Name
 * Location
 * County
