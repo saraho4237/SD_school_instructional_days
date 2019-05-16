@@ -57,7 +57,7 @@ Elk Mountain School District was the only district to not report their special e
 
 41 did not report an average ACT composite score. All districts that did not report a composite score had fewer than 10 students take the ACT. Two districts had no students take the ACT: Big Stone City School District and Elk Mountain School District.
 
-### Visualization
+### Tableau Public Visualization
 
 Check out the interactive visualization I made from this data [here.](https://public.tableau.com/profile/sarah.o.neil#!/vizhome/SDSchoolDistrict-LevelDataDashboard/Dashboard12)
 
