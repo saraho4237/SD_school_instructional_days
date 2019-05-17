@@ -16,7 +16,7 @@ Further, I wanted to see what kind of data South Dakota was keeping on its schoo
 
 ### District Level Data
 
-The data is from the [South Dakota Department of Education Data Center](https://doe.sd.gov/data.aspx) and includes district level information from the 149 public school districts in South Dakota. The columns included in the final dataset were ones I pulled based on what I thought might be interesting. 
+The data is from the [South Dakota Department of Education Data Center](https://doe.sd.gov/data.aspx) and includes district level information from the 149 public school districts in South Dakota. The columns included in the final dataset were ones I pulled based on what I thought might be interesting.
 
 The cleaned/merged dataset includes information on:
 * District Name
@@ -63,9 +63,9 @@ Check out the interactive visualization I made from this data [here.](https://pu
 
 The visualization hones in on the county population and free/reduced lunch data for 4- vs. 5-day school districts.
 
-I chose these to focus on because the FB comments above were interested in exploring whether rural districts were more likely to be 4-day and whether schools with more students of color were more/less likely to be 4-day.
+I chose these to focus on these because the FB comments above were interested in exploring whether rural districts were more likely to be 4-day and whether schools with more students of color were more/less likely to be 4-day.
 
-I used county population and free/reduced lunch rate as proxy variables to indicate rural-ness and ethnic breakdown respectively.
+I used county population and free/reduced lunch rate as proxy variables to indicate rural-ness and racial/ethnic breakdown respectively.
 
 **The visualizations show the median county population is actually slightly higher for districts that have a 4-day school week.** I used median for measure of center because the population data was right skewed.
 
@@ -75,7 +75,13 @@ Additionally, **schools with a 4-day week had a slightly higher average percenta
 
 If you are interested in how school districts with 4- vs. 5-day weeks differ on other metrics, [check this out](https://public.tableau.com/profile/sarah.o.neil#!/vizhome/SDSchoolDistrict-LevelDatastory/Story1). I include metrics related to teacher pay, ACT score, instructional time, etc.  
 
-You might notice, there are some possible data entry errors. For example, Hoven School District...303 instructional days. Doubtful. If I was doing formal analyses, I would have removed these questionable data points. However, this is simply a visualization exercise. 
+You might notice, there are some possible data entry errors. For example, Hoven School District...303 instructional days. Doubtful. If I was doing formal analyses, I would have removed these questionable data points. However, this is simply a visualization exercise.
+
+To address one final comment, an FB poster mentioned that low SES students tend to go to school longer than their higher SES counterparts.
+
+This does not appear to be the trend in SD:
+
+![](images/corr.png)
 
 ### A few final thoughts on the public data...
 
