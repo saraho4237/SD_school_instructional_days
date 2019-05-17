@@ -16,7 +16,7 @@ Further, I wanted to see what kind of data South Dakota was keeping on its schoo
 
 ### District Level Data
 
-The data is from the [South Dakota Department of Education Data Center](https://doe.sd.gov/data.aspx) and includes district level information from the 149 public school districts in South Dakota.
+The data is from the [South Dakota Department of Education Data Center](https://doe.sd.gov/data.aspx) and includes district level information from the 149 public school districts in South Dakota. The columns included in the final dataset were ones I pulled based on what I thought might be interesting. 
 
 The cleaned/merged dataset includes information on:
 * District Name
@@ -41,7 +41,7 @@ The cleaned/merged dataset includes information on:
 
 *Additionally, if over 50% of schools in the district implemented a 4 day week, the district was counted as having a 4 day week, overall.*
 
-Unfortunately, the data does **not** include information on schools overseen by the Bureau of Indian Education (BIE). Data on BIE schools proved difficult to find in a tabular format/.csv. The BIE provides a link to a report card from each school. The latest reports are from the 2015-2016 school year (ex. [Saint Francis Indian School](https://www.bie.edu/cs/groups/xbie/documents/text/idc2-074499.pdf)).
+Unfortunately, the data does **not** include information on schools overseen by the Bureau of Indian Education (BIE). Data on BIE schools proved difficult to find in a tabular format/.csv. The BIE provides a link to a report card for many of its schools. The latest reports are from the 2015-2016 school year (ex. [Saint Francis Indian School](https://www.bie.edu/cs/groups/xbie/documents/text/idc2-074499.pdf)).
 
 ### Missing Data
 
@@ -67,10 +67,15 @@ I chose these to focus on because the FB comments above were interested in explo
 
 I used county population and free/reduced lunch rate as proxy variables to indicate rural-ness and ethnic breakdown respectively.
 
-**The visualizations show the median county population is actually higher for districts that have a 4-day school week.** Median chosen measure of center because the population data was right skewed.
+**The visualizations show the median county population is actually slightly higher for districts that have a 4-day school week.** Median chosen measure of center because the population data was right skewed.
 
 Additionally, **schools with a 4-day week had a slightly higher average percentage of students who qualify for free/reduced lunch** (.384 for 4-day districts vs .339 for 5-day districts).
 
+## More Visualizations
+
+If you are interested in how school districts with 4- vs. 5-day weeks differ on other metrics, (check this out)[https://public.tableau.com/profile/sarah.o.neil#!/vizhome/SDSchoolDistrict-LevelDatastory/Story1]. I include metrics related to teacher pay, ACT score, instructional time, etc.  
+
+You might notice, there are some possible data entry errors. For example, Hoven School District...303 instructional days. Doubtful. If I was doing formal analyses, I would have removed these questionable data points. However, this is simply a visualization exercise. 
 
 ### A few final thoughts on the public data...
 
@@ -78,6 +83,6 @@ South Dakota could do a much cleaner job of reporting district race/ethnicity in
 
 It would also be great if the data included information on whether or not the school is located on reservation/tribal lands.
 
-Finally, the BIE should be more transparent with their data (i.e. publish their data on the BIE website in a tabular format as the department of ed. seems mandated to do).
+The South Dakota Department of Education could do a much better job of documenting their datasets by including metadata on what information is included in each of their many tables. For example, the columns "Capital Outlay Fund Local Revenue" and "Special Education Extraordinary Cost Funds"... what do these mean?? There are close to 100 of these "hard-to-interpret-unless-you-are-a-CPA" columns related to district funding. But zero easily accessible columns relating to race/ethnicity. IDK.
 
-The South Dakota Department of Education could do a much better job of documenting their datasets by including metadata on what is included in each of their many disparate tables. For example, the columns "Capital Outlay Fund Local Revenue" and "Special Education Extraordinary Cost Funds"... what do these mean?? There are at least 50 of these "hard-to-interpret-unless-you-are-a-CPA" columns related to district funding. But zero easily accessible columns relating to race/ethnicity. IDK.
+Finally, the BIE should be more transparent with their data (i.e. publish their data on the BIE website in a tabular format as the department of education seems mandated to do). I suppose there could be funding/other barriers that keep the BIE from keeping tabluar public data.
