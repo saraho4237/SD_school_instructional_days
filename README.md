@@ -67,13 +67,13 @@ I chose these to focus on because the FB comments above were interested in explo
 
 I used county population and free/reduced lunch rate as proxy variables to indicate rural-ness and ethnic breakdown respectively.
 
-**The visualizations show the median county population is actually slightly higher for districts that have a 4-day school week.** Median chosen measure of center because the population data was right skewed.
+**The visualizations show the median county population is actually slightly higher for districts that have a 4-day school week.** I used median for measure of center because the population data was right skewed.
 
 Additionally, **schools with a 4-day week had a slightly higher average percentage of students who qualify for free/reduced lunch** (.384 for 4-day districts vs .339 for 5-day districts).
 
 ## More Visualizations
 
-If you are interested in how school districts with 4- vs. 5-day weeks differ on other metrics, (check this out)[https://public.tableau.com/profile/sarah.o.neil#!/vizhome/SDSchoolDistrict-LevelDatastory/Story1]. I include metrics related to teacher pay, ACT score, instructional time, etc.  
+If you are interested in how school districts with 4- vs. 5-day weeks differ on other metrics, [check this out](https://public.tableau.com/profile/sarah.o.neil#!/vizhome/SDSchoolDistrict-LevelDatastory/Story1). I include metrics related to teacher pay, ACT score, instructional time, etc.  
 
 You might notice, there are some possible data entry errors. For example, Hoven School District...303 instructional days. Doubtful. If I was doing formal analyses, I would have removed these questionable data points. However, this is simply a visualization exercise. 
 
